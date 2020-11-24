@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: checkoutservice
+          image: quay.io/cf250024/checkoutservice:v0.1.4-33-g0d635b9
           ports:
           - containerPort: 5050
           readinessProbe:

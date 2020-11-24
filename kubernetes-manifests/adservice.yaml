@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: adservice
+        image: quay.io/cf250024/adservice:v0.1.4-33-g0d635b9
         ports:
         - containerPort: 9555
         env:

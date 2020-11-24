@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: recommendationservice
+        image: quay.io/cf25024/recommendationservice:v0.1.4-33-g0d635b9
         ports:
         - containerPort: 8080
         readinessProbe:

@@ -30,7 +30,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: frontend
+          image: quay.io/cf250024/frontend:v0.1.4-33-g0d635b9
           ports:
           - containerPort: 8080
           readinessProbe:

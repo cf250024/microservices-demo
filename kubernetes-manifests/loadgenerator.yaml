@@ -32,7 +32,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: main
-        image: loadgenerator
+        image: quay.io/cf250024/loadgenerator:v0.1.4-33-g0d635b9
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"

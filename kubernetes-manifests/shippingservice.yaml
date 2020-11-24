@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: shippingservice
+        image: quay.io/cf250024/shippingservice:v0.1.4-33-g0d635b9
         ports:
         - containerPort: 50051
         env:
