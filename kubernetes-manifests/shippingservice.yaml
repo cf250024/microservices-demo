@@ -20,13 +20,13 @@ spec:
   selector:
     matchLabels:
       app: shippingservice
+  replicas: 2
   template:
     metadata:
       labels:
         app: shippingservice
     spec:
       serviceAccountName: default
-      replicas: 2
       containers:
       - name: server
         image: quay.io/cf250024/shippingservice:v0.1.4-33-g0d635b9
